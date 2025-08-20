@@ -1,0 +1,166 @@
+body {
+  background: linear-gradient(135deg, #23283a 0%, #181c24 100%);
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.rk-container {
+  max-width: 420px;
+  margin: 48px auto;
+  background: rgba(35, 40, 58, 0.98);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 36px 28px 18px 28px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.rk-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  user-select: none;
+}
+
+.rk-tagline {
+  color: #b2b8d6;
+  font-size: 1rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.rk-leaderboard {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.rk-leaderboard li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2d334a;
+  margin: 12px 0;
+  padding: 18px 18px;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.rk-leaderboard li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  user-select: none;
+}
+
+.rk-rank {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 32px;
+  text-align: left;
+  user-select: none;
+}
+
+.rk-name {
+  flex: 1;
+  text-align: left;
+  margin-left: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.rk-score {
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #b2ffb2;
+  text-align: right;
+  min-width: 80px;
+  user-select: none;
+}
+
+.rk-gold {
+  background: linear-gradient(90deg, #ffd700 60%, #fffbe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #ffd700;
+  box-shadow: 0 2px 12px #ffd70033;
+  user-select: none;
+}
+
+.rk-silver {
+  background: linear-gradient(90deg, #c0c0c0 60%, #f8f8f8 100%);
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #c0c0c0;
+  box-shadow: 0 2px 12px #c0c0c033;
+  user-select: none;
+}
+
+.rk-green {
+  background: linear-gradient(90deg, #4caf50 60%, #b2ffb2 100%);
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #4caf50;
+  box-shadow: 0 2px 12px #4caf5033;
+  user-select: none;
+}
+
+footer {
+  margin-top: 18px;
+  color: #b2b8d6;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+h1 {
+  margin: 0 0 8px 0;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Press Start 2P", system-ui;
+  background: #ff0e0e;
+  background: linear-gradient(to right, #ff0e0e 0%, #cfc300 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.rk-btn {
+  display: inline-block;
+  margin: 18px auto 0 auto;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  font-family: "Press Start 2P", system-ui, Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #ff0e0e 0%, #cfc300 100%);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px #ff0e0e44;
+  text-decoration: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: transform 0.13s, box-shadow 0.13s, background 0.2s;
+  outline: none;
+}
